@@ -3,12 +3,19 @@
 App móvil multiplataforma desarrollada en **Flutter** para coleccionar cartas Pokémon de la primera generación, abrir sobres, completar la Pokédex y combatir con tus cartas.
 
 > Proyecto en equipo desarrollado durante el ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM). Sin ánimo de lucro y con fines educativos. Pokémon es una marca de Nintendo/Game Freak/The Pokémon Company.
-
 ## 📸 Capturas
 
-| Pantalla principal | Apertura de sobres | Pokédex |
-|---|---|---|
-| <img src="screenshots/home.webp" width="220"> | <img src="screenshots/packs.webp" width="220"> | <img src="screenshots/pokedex.webp" width="220"> |
+<p align="center">
+  <img src="screenshots/home.webp" width="220" alt="Pantalla principal">
+  &nbsp;&nbsp;
+  <img src="screenshots/packs.webp" width="220" alt="Apertura de sobres">
+  &nbsp;&nbsp;
+  <img src="screenshots/pokedex.webp" width="220" alt="Pokédex">
+</p>
+
+<p align="center">
+  <sub>Pantalla principal · Apertura de sobres · Pokédex</sub>
+</p>
 
 ## ✨ Funcionalidades
 
@@ -67,7 +74,7 @@ android/ ios/ web/ ...   # Plataformas soportadas
 
 | Autor | Enlaces |
 |---|---|
-| **Marc Ortiz** | [GitHub](https://github.com/mortizroque) · [LinkedIn](TU-LINKEDIN) |
+| **Marc Ortiz** | [GitHub](https://github.com/mortizroque) · [LinkedIn](https://www.linkedin.com/in/marcortizroque/) |
 | **Pau Farré Ruiz** | [LinkedIn](https://www.linkedin.com/in/paufarreruiz/) |
 | **Marc Crespo Cambón** | [LinkedIn](https://www.linkedin.com/in/marccrespocambon/) |
 
