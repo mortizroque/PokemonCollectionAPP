@@ -63,7 +63,7 @@ android/ ios/ web/ ...   # Plataformas soportadas
 
 | | LinkedIn |
 |---|---|
-| **Marc Ortiz** | [Perfil](TU-LINKEDIN) · [GitHub](https://github.com/mortizroque) |
+| **Marc Ortiz** | [Perfil](https://www.linkedin.com/in/marcortizroque/) · [GitHub](https://github.com/mortizroque) |
 | **Pau Farré Ruiz** | [Perfil](https://www.linkedin.com/in/paufarreruiz/) |
 | **Marc Crespo Cambón** | [Perfil](https://www.linkedin.com/in/marccrespocambon/) |
 
