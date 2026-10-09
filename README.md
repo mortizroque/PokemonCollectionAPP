@@ -1,35 +1,76 @@
-# PokemonAPP
+# 🎴 PokéCards: Pokémon Collection App
 
-PokeCards es un emocionante juego móvil desarrollado en Flutter que recrea la experiencia de coleccionar y combatir con cartas Pokémon de la primera generación. Este proyecto tiene fines exclusivamente educativos, sin ningún intento de lucro comercial.
+App móvil multiplataforma desarrollada en **Flutter** para coleccionar cartas Pokémon de la primera generación, abrir sobres, completar la Pokédex y combatir con tus cartas.
 
-## Características Principales
+> Proyecto en equipo desarrollado durante el ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM). Sin ánimo de lucro y con fines educativos. Pokémon es una marca de Nintendo/Game Freak/The Pokémon Company.
 
-- **Colección de Cartas:** Los jugadores pueden coleccionar cartas Pokémon icónicas de la primera generación, cada una con sus propias estadísticas y habilidades únicas.
-  
-- **Combates Pokémon:** Utiliza tus cartas en emocionantes batallas Pokémon contra otros jugadores o contra la inteligencia artificial.
-  
-- **Plataforma Flutter:** Desarrollado completamente en Flutter, garantizando una experiencia fluida y multiplataforma para usuarios de dispositivos móviles.
-  
-- **Sin Fines Comerciales:** Este proyecto es completamente gratuito y de código abierto, creado con el propósito de educar y entretener a la comunidad sin ningún objetivo comercial.
+## 📸 Capturas
 
-## Capturas de Pantalla
+| Pantalla principal | Apertura de sobres | Pokédex |
+|---|---|---|
+| <img src="screenshots/home.webp" width="220"> | <img src="screenshots/packs.webp" width="220"> | <img src="screenshots/pokedex.webp" width="220"> |
 
-![Captura de Pantalla 1](screenshots/screenshot1.png)
-![Captura de Pantalla 2](screenshots/screenshot2.png)
-![Captura de Pantalla 3](screenshots/screenshot3.png)
+## ✨ Funcionalidades
 
-## Instalación
+- **Pokédex de 151 cartas** con progreso de colección y pestaña de cartas duplicadas.
+- **Apertura de sobres** con animación para conseguir nuevas cartas.
+- **Sistema de progresión:** nivel con barra de experiencia y dos monedas (monedas y gemas).
+- **Recompensa por tiempo** ("Collect") con temporizador.
+- **Modo de juego/combate** con las cartas de tu colección.
+- **Escaneo de cartas con la cámara** mediante reconocimiento de texto (Google ML Kit).
+- **Persistencia local** del progreso del jugador.
+- Interfaz personalizada con tipografías y recursos gráficos propios.
 
-1. Clona este repositorio.
-2. Abre el proyecto en tu IDE o editor de código preferido.
-3. Ejecuta `flutter pub get` para instalar las dependencias.
-4. Conecta tu dispositivo móvil o utiliza un emulador.
-5. Ejecuta `flutter run` para iniciar la aplicación en tu dispositivo/emulador.
+## 🛠️ Stack técnico
 
-## Contribución
+| Área | Tecnología |
+|---|---|
+| Framework / lenguaje | Flutter · Dart (SDK ≥ 3.3) |
+| Gestión de estado | Provider |
+| Red | `http` |
+| Cámara y OCR | `camera` · `google_mlkit_text_recognition` · `permission_handler` |
+| Almacenamiento local | `shared_preferences` |
+| UI | `flutter_svg` · `percent_indicator` · fuentes personalizadas |
+| Utilidades | `intl` · `crypto` · `logger` |
+| Calidad | `flutter_lints` · `flutter_test` |
 
-¡Las contribuciones son bienvenidas! Si tienes alguna idea, sugerencia o quieres reportar un problema, por favor abre un issue en este repositorio. También puedes contribuir directamente creando pull requests.
+## 🚀 Cómo ejecutarlo
 
-## Licencia
+Requisitos: [Flutter SDK](https://docs.flutter.dev/get-started/install) instalado y un emulador o dispositivo conectado.
 
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+```bash
+git clone https://github.com/mortizroque/PokemonCollectionAPP.git
+cd PokemonCollectionAPP
+flutter pub get
+flutter run
+```
+
+## 📁 Estructura
+
+```
+lib/          # Código de la aplicación
+assets/       # Imágenes y recursos del juego
+fonts/        # Tipografías personalizadas
+screenshots/  # Capturas para este README
+test/         # Tests
+android/ ios/ web/ ...   # Plataformas soportadas
+```
+
+## 🎯 Qué aprendimos
+
+- Desarrollo de una app Flutter completa con gestión de estado mediante Provider.
+- Integración de cámara y reconocimiento de texto en dispositivos móviles.
+- Gestión de permisos y persistencia local.
+- Trabajo en equipo con Git: más de 290 commits en el repositorio original.
+
+## 👥 Autores
+
+| Autor | Enlaces |
+|---|---|
+| **Marc Ortiz** | [GitHub](https://github.com/mortizroque) · [LinkedIn](TU-LINKEDIN) |
+| **Pau Farré Ruiz** | [LinkedIn](https://www.linkedin.com/in/paufarreruiz/) |
+| **Marc Crespo Cambón** | [LinkedIn](https://www.linkedin.com/in/marccrespocambon/) |
+
+## 📄 Licencia
+
+MIT, ver [LICENSE](LICENSE).
