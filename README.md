@@ -6,9 +6,9 @@ App móvil multiplataforma desarrollada en **Flutter** para coleccionar cartas P
 
 ## 📸 Capturas
 
-| Colección | Detalle de carta | Juego |
+| Pantalla principal | Apertura de sobres | Pokédex |
 |---|---|---|
-| ![Colección](screenshots/screenshot1.png) | ![Detalle](screenshots/screenshot2.png) | ![Juego](screenshots/screenshot3.png) |
+| <img src="screenshots/home.webp" width="220"> | <img src="screenshots/packs.webp" width="220"> | <img src="screenshots/pokedex.webp" width="220"> |
 
 ## ✨ Funcionalidades
 
